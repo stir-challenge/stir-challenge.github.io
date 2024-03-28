@@ -34,8 +34,8 @@ Example with MFTs<sup>2</sup>
 
 ## Timeline
 
-**March 31** Challenge launch 
-**October 6-10**  MICCAI 2024
+- **March 31** Challenge launch 
+- **October 6-10**  MICCAI 2024
 
 ## Organizers
 
