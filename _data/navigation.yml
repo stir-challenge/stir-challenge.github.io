@@ -1,13 +1,13 @@
 # main links links
 main:
-  - title: "Dataset"
-    url: /dataset/
+  - title: "Data"
+    url: /data/
 
   - title: "Evaluation"
     url: /evaluation/    
 
-  - title: "Registration"
-    url: /registration/    
+  - title: "Participation"
+    url: /participation/    
     
   # - title: "Portfolio"
   #   url: /portfolio/
