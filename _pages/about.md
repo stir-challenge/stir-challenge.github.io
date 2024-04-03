@@ -8,13 +8,19 @@ redirect_from:
 ---
 
 ## Description
-The STIR Challenge is designed to quantifying methods in deformable tracking, mapping and reconstruction. STIR is a part of EndoVis challenge at MICCAI 2024 (October 6-10, 2024). STIR will be quantified using a non-public test split of the publicly available STIR Dataset. The dataset is a stereo dataset with ground truth labels created using Infrared Tattoos<sup>1</sup>
+The STIR Challenge is designed to quantify methods in deformable tracking, mapping and reconstruction. STIR is a part of EndoVis challenge at MICCAI 2024 (October 6-10, 2024). STIR will be quantified using a non-public test split of the publicly available STIR Dataset. The dataset is a stereo dataset with ground truth labels created using Infrared Tattoos<sup>1</sup>
 
 ## Objective
 Track points accurately and efficiently in videos
 
-Example with MFTs<sup>2</sup>
+## Motivation
+
+Robust tracking and mapping in deformable scenarios is essential to enable downstream tasks in medical computer vision, such as motion compensation, and subtask automation<sup>2</sup>. A robust means to evaluate these methods for clinical efficacy requires a large labelled dataset, and a standardized evaluation. The STIR challenge provides that.
+
+Example with MFTs<sup>3</sup>
 ------
+
+Here are some examples of a baseline method (MFTs) on the STIR dataset.
 
 <video width="640" height="480" controls>
   <source src="/mft_videos/00MFT.mp4" type="video/mp4">
@@ -34,7 +40,7 @@ Example with MFTs<sup>2</sup>
 
 ## Timeline
 
-- **March 31** Challenge launch 
+- **April 3** Challenge launch 
 - **October 6-10**  MICCAI 2024
 
 ## Organizers
@@ -55,6 +61,6 @@ Quick questions about our challenge can be posed via email or slack (recommended
 
 References
 ------
-1- Schmidt, Adam, Omid Mohareri, Simon DiMaio, and Septimiu E. Salcudean. "STIR: Surgical Tattoos in Infrared." arXiv preprint arXiv:2309.16782 (2023).
-
-2- Neoral, Michal, Jonáš Šerých, and Jiří Matas. "Mft: Long-term tracking of every pixel." In Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision, pp. 6837-6847. 2024.
+1- Schmidt, Adam, Omid Mohareri, Simon DiMaio, and Septimiu E. Salcudean. "STIR: Surgical Tattoos in Infrared." IEEE Transactions on Medical Imaging (2024).
+2- Schmidt, Adam, Omid Mohareri, Simon DiMaio, Michael C. Yip, Septimiu E. Salcudean. "Tracking and mapping in medical computer vision: A review." Medical Image Analysis. 2024 Mar 2:103131.
+3- Neoral, Michal, Jonáš Šerých, and Jiří Matas. "Mft: Long-term tracking of every pixel." In Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision, pp. 6837-6847. 2024.
