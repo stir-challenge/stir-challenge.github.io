@@ -40,8 +40,15 @@ Here are some examples of a baseline method (MFTs) on the STIR dataset.
 
 ## Timeline
 
-- **April 3** Challenge launch 
+- **April 3** Challenge launch, 2D Evaluation Release
+- **Mid-June** 3D Quantification Release
 - **October 6-10**  MICCAI 2024
+
+
+## Sponsors
+
+![Sponsors: NVIDIA, ImFusion, Intuitive](/images/sponsors.png)
+
 
 ## Organizers
 
