@@ -55,13 +55,18 @@ Algorithms which ingress full video sequences do not have provided reference imp
 
 ## Prizes
 
-Cash prizes will be distributed with the following proportions for 1st, 2nd, 3rd place out of a total of 24 units. Prizes in the 3D category are also valid for 2D prizes. For example, if a method is first in 3D (compared against 3D participants) and second in 2D (against 2D and 3D participants), then they will get 9 units (6 for second 2D +3 for first place in 3D) of cash. The efficiency prize will be offered to the most accurate (according to 2D accuracy) method, either 2D or 3D, that is performant above a given threshold. The exact threshold is still in deliberation, but should be set relative (~0.5) to the latency of the RAFT-small model. For participants looking for the efficiency prize, we recommend starting with, or comparing your method to [RAFT_STIR](https://github.com/athaddius/RAFT_STIR) in performance.
+Prizes in the 3D category are also valid for 2D prizes. For example, if a method is first in 3D (compared against 3D participants) and second in 2D (against 2D and 3D participants), then they will get 9 units (6 for second 2D +3 for first place in 3D) of cash. The efficiency prize will be offered to the most accurate (according to 2D accuracy) method, either 2D or 3D, that is performant above a given threshold. The exact threshold is still in deliberation, but should be set relative to the latency of the RAFT-small model. For participants looking for the efficiency prize, we recommend starting with, or comparing your method to [RAFT_STIR](https://github.com/athaddius/RAFT_STIR) in performance using [STIRHoloscan](https://github.com/athaddius/STIRHoloscan) code.
 
-### Cash Prizes Proportional Allocation
+#### Cash Prizes (USD)
+**2D**:
+First: $2025
+Second: $1350
+Third: $675
 
-**2D**: 9, 6, 3
-**3D**: 3, 2, 1
+**3D**:
+First: $675
+Second: $450
+Third: $225
 
-### Efficiency Prize
-
-A hardware prize (TBD) provided by NVIDIA.
+#### Efficiency Prize
+An [IGX Orin Developer Kit](https://www.nvidia.com/en-us/edge-computing/products/igx/) equipped with the latest [RTX 6000 ADA Generation GPU](https://www.nvidia.com/en-us/design-visualization/rtx-6000/).
