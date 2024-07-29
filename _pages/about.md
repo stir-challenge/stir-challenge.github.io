@@ -43,7 +43,10 @@ Here are some examples of a baseline method (MFTs) on the STIR dataset.
 - **April 3** Challenge launch, 2D Evaluation Release
 - **Mid-June** 3D Quantification Release
 - **October 6-10**  MICCAI 2024
-
+- **Early August** Docker Instructions Available
+- **September 9** Docker Container Submission Deadline
+- **Mid September (TBD)** Report Submission Deadline
+- **October 6-10** MICCAI 2024
 
 ## Sponsors
 
@@ -64,7 +67,7 @@ Tim Salcudean | UBC
 
 ## Contact
 
-Quick questions about our challenge can be posed via email or slack (recommended). Email adamschmidt@ece.ubc.ca to be added, or register for the challenge above, and be added via your email address.
+Quick questions about our challenge can be posed via email or synapse. Email adam . schmidt at intusurg . com to be added, or register for the challenge above.
 
 References
 ------
