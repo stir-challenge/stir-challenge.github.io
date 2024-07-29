@@ -5,10 +5,11 @@ permalink: /data/
 author_profile: true
 ---
 ![](/images/STIR_summary.png)
-The STIR dataset includes many sequences (over 4 hours) of tissue deformation, and the publicly released version can be used for both training and validation. Our preliminary validation leaderboard pipeline will use a subset of this same public data, so note that performance may be artificial inflated if you over-tune on a validation split.
+The STIR dataset includes many sequences (over 4 hours) of tissue deformation, and the publicly released version can be used for both training and validation.
 
 ## Data Description
-Details on the test split used for the final testing will follow later.
+
+The test dataset contains around 60 sequences, with a total of 14k frames. No sequences are longer than 4 minutes in length.
 
 ## Use of External Data
 Public, available data are usable for training. Usable datasets with deformation or tracking labels are mentioned in [this](https://www.sciencedirect.com/science/article/pii/S1361841524000562)<sup>1</sup> review. Additional datasets include publicly available datasets without deformation labels that can be used in an unsupervised manner, such as [StereoMIS](https://zenodo.org/records/7727692)<sup>2</sup>. Publicly available network weights are also allowed. Initialization with private weights, or training on private data is not permitted in this challenge.
