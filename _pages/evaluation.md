@@ -5,13 +5,12 @@ permalink: /evaluation/
 author_profile: true
 ---
 
-The goals of the STIR challenge are to:
+The goals of the STIR challenge are:
 
-1.  Evaluate accuracy of tracking and reconstruction algorithms. (accuracy)
-2.  Motivate efficiency of algorithms for usage in clinical applications. (latency)
+1.   _Accuracy:_ Evaluate accuracy of tracking  and reconstruction algorithms.
+2.   _Efficiency:_ Motivate efficiency of algorithms for usage in clinical applications.
 
-These will be ranked with two different means (accuracy, and latency). Participation in (2) is optional (but highly recommended) as it comes with an additional prize, see Prizes for more details. Algorithms can choose to compete in either the 2D or 3D quantification.
-
+These will be ranked with two different means (accuracy, and latency). Participation in (2) is optional (but highly recommended) as it comes with an additional prize, of an IGX Orin Developer Kit (see Prizes for more details). Algorithms can choose to compete in either the 2D or 3D quantification.
 
 ## Metrics
 
@@ -24,12 +23,18 @@ We will be using $$ \delta^x_{avg} $$ (from [TAP-VID](https://tapvid.github.io/)
 
 ### Efficiency
 
+Efficiency of models will be evaluated using the [NVIDIA Holoscan](https://docs.nvidia.com/holoscan/sdk-user-guide/index.html) platform, using the framework provided at [STIRHoloscan](https://github.com/athaddius/STIRHoloscan/). For participants in the efficiency challenge, we will evaluate efficiency as the combination of average framewise latency, 99%, and 99.9% latencies. Methods which reach an efficient threshold are viable for this prize. If your method is faster than the threshold below, you are good to go! Methods will be evaluated on an A6000 GPU. The most accurate method (according to 2D accuracy) under this threshold will receive the prize.
 
-Efficiency of models will be evaluated using the [NVIDIA Holoscan](https://docs.nvidia.com/holoscan/sdk-user-guide/index.html) platform using the framework at [STIRHoloscan](https://github.com/athaddius/STIRHoloscan).  For participants in the efficiency challenge, we will evaluate efficiency as the average framewise latency combined with 95%, 99% latencies. Methods which reach an efficient threshold, determined by a baseline (RAFT) will be viable for the efficiency prize. In short, if your method is faster than a threshold, you are good to go! We recommend to shoot for methods no slower than 3x the latency of RAFT_STIR on an A6000 GPU.
+**Threshold:** (99.9 percentile + 99 percentile + average latency) / 3 < 200ms
 
-If you are interested in participating in the efficiency segment of the challenge, start experimenting with exporting your model to torchscript or onnx to enable use with Holoscan for benchmarking. [RAFT STIR](https://github.com/athaddius/RAFT_STIR) provides an example of this.
+#### Tips
+Evaluate your current performance using [STIRHoloscan](https://github.com/athaddius/STIRHoloscan/). Insert your model into this framework of Holoscan Operators so the organizers can time it as described on the [STIRHoloscan](https://github.com/athaddius/STIRHoloscan/) page. Ensure your model produces correct output after exporting. 
 
-**Latency evaluation code is available at:** [STIRHoloscan](https://github.com/athaddius/STIRHoloscan)
+
+We recommend exporting PyTorch->Onnx->TensorRT to ensure efficient on-GPU performance. To participate in the efficiency segment of the challenge, start experimenting with exporting your model to onnx to enable use with Holoscan for benchmarking. [RAFT STIR](https://github.com/athaddius/RAFT_STIR) provides an example of this.
+
+**Latency metrics code is available at:** [STIRHoloscan](https://github.com/athaddius/STIRHoloscan/)
+
 
 ![Holoscan platform](/images/holoscan.png)
 
