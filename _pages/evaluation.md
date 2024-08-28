@@ -23,9 +23,11 @@ We will be using $$ \delta^x_{avg} $$ (from [TAP-VID](https://tapvid.github.io/)
 
 ### Efficiency
 
-Efficiency of models will be evaluated using the [NVIDIA Holoscan](https://docs.nvidia.com/holoscan/sdk-user-guide/index.html) platform, using the framework provided at [STIRHoloscan](https://github.com/athaddius/STIRHoloscan/). For participants in the efficiency challenge, we will evaluate efficiency as the combination of average framewise latency, 99%, and 99.9% latencies. Methods which reach an efficient threshold are viable for this prize. If your method is faster than the threshold below, you are good to go! Methods will be evaluated on an A6000 GPU. The most accurate method (according to 2D accuracy) under this threshold will receive the prize.
+Efficiency of models will be evaluated using the [NVIDIA Holoscan](https://docs.nvidia.com/holoscan/sdk-user-guide/index.html) platform, using the framework provided at [STIRHoloscan](https://github.com/athaddius/STIRHoloscan/). For participants in the efficiency challenge, we will evaluate efficiency as the combination of average framewise latency, 99%, and 95% latencies. Methods which reach an efficient threshold are viable for this prize. If your method is faster than the threshold below, you are good to go! Methods will be evaluated on an A6000 GPU. The most accurate method (according to 2D accuracy) under this threshold will receive the prize.
 
-**Threshold:** (99.9 percentile + 99 percentile + average latency) / 3 < 200ms
+**Threshold:** (99 percentile + 95 percentile + average latency) / 3 < 200ms
+
+**Note:** If fewer than 5 methods score under the latency threshold, then we will select the most accurate method from the lowest-latency 1/3 of submissions. The lowest-latency 1/3 is selected according to the same latency score. Specifics may be subject to change.
 
 #### Tips
 Evaluate your current performance using [STIRHoloscan](https://github.com/athaddius/STIRHoloscan/). Insert your model into this framework of Holoscan Operators so the organizers can time it as described on the [STIRHoloscan](https://github.com/athaddius/STIRHoloscan/) page. Ensure your model produces correct output after exporting. 
