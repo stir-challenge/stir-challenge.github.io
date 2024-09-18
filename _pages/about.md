@@ -44,9 +44,9 @@ Here are some examples of a baseline method (MFTs) on the STIR dataset.
 - **Mid-June** 3D Quantification Release
 - **October 6-10**  MICCAI 2024
 - **Early August** Docker Instructions Available
-- **September 16** Docker Container Submission Deadline
-- **September 23** Report Submission Deadline
-- **October 6-10** MICCAI 2024
+- **September 23** Docker Container Submission Deadline
+- **September 30** Report Submission Deadline
+- **October 6-10** MICCAI 2024, challenge results (optional)
 
 ## Sponsors
 
