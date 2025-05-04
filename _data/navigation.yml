@@ -1,22 +1,25 @@
 # main links links
 main:
-  - title: "Data"
-    url: /data/
+- title: "Data"
+  url: /data/
 
-  - title: "Evaluation & Prizes"
-    url: /evaluation/    
+- title: "Evaluation & Prizes"
+  url: /evaluation/
 
-  - title: "Participation"
-    url: /participation/    
-    
-  # - title: "Portfolio"
-  #   url: /portfolio/
-        
-  # - title: "Blog Posts"
-  #   url: /year-archive/
-    
-  # - title: "CV"
-  #   url: /cv/
-    
-  # - title: "Guide"
-  #   url: /markdown/
+- title: "Participation"
+  url: /participation/
+
+- title: "STIRC 2024"
+  url: /stirc-2024/
+
+# - title: "Portfolio"
+#   url: /portfolio/
+
+# - title: "Blog Posts"
+#   url: /year-archive/
+
+# - title: "CV"
+#   url: /cv/
+
+# - title: "Guide"
+#   url: /markdown/
