@@ -55,6 +55,19 @@ Here are some examples of a baseline method (MFTs) on the STIR dataset.
 ## Organizers
 *TBA*
 
+# Organizers
+
+Name |  Institution
+---|---
+Adam Schmidt | Intuitive
+Mert Karaoglu | ImFusion & TUM
+Alexander Ladikos | ImFusion
+Omid Mohareri | Intuitive
+Simon DiMaio | Intuitive
+
+## Sponsors
+
+![Sponsors: ImFusion, Intuitive](/images/sponsors-25.png)
 ## Contact
 Questions about our challenge should be posted on the synapse forum for this challenge. To formally register for the challenge, please email your signed registration form to [challenge.stir@gmail.com](challenge.stir@gmail.com).
 

@@ -4,7 +4,7 @@ title: "STIRC 2024"
 permalink: /stirc-2024/
 author_profile: true
 ---
-![Holoscan platform](/images/miccai2024-logo.png)
+![MICCAI 2024 Logo](/images/miccai2024-logo.png)
 
 # [📄 Report Paper](https://arxiv.org/abs/2503.24306) 
 
@@ -129,7 +129,7 @@ Tim Salcudean | UBC
 
 ## Sponsors
 
-![Sponsors: NVIDIA, ImFusion, Intuitive](/images/sponsors.png)
+![Sponsors: NVIDIA, ImFusion, Intuitive](/images/sponsors-24.png)
 
 References
 ------
