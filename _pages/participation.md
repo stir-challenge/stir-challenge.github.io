@@ -20,7 +20,7 @@ docker commit <container_id> <team_name>
 This will commit your docker container to an image file which the challenge organizers can then use. Upload this docker image to a file-sharing website of your choice. Modify the commented 'FOR SUBMISSION' piece of rundocker.sh to include a run command, and submit your version of this script alongside your container image. Organizers will use this to run your docker image as a standalone method. Your method paired with the rundocker.sh must run all necessary commands and then exit; the organizers should not need to enter your container. Please make sure to submit your method early for validation so that we can ensure it runs.
 
 ### Email Template
-Email `challenge.stir@gmail.com` with a link to download your container. Attach the signed form EndoVis Participant Form if you have not already done so. Teams are limited to one submission per component. A video and report will be due September 30th. (see How To Participate for instructions)
+Email `challenge.stir@gmail.com` with a link to download your container. Attach the signed form EndoVis Participant Form if you have not already done so. Teams are limited to one submission per component. A video and report will be due. (see How To Participate for instructions)
 
 **Subject line**
 
