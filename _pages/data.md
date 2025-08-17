@@ -19,4 +19,5 @@ Publicly available network weights are also allowed to be used. Initialization w
 References
 ------
 1- Schmidt, Adam, Mert Asim Karaoglu, Soham Sinha, Mingang Jang, Ho-Gun Ha, Kyungmin Jung, Kyeongmo Gu et al. "Point Tracking in Surgery--The 2024 Surgical Tattoos in Infrared (STIR) Challenge." arXiv preprint arXiv:2503.24306 (2025).
+
 2- Schmidt, Adam, Omid Mohareri, ddSimon DiMaio, Michael C. Yip, and Septimiu E. Salcudean. "Tracking and mapping in medical computer vision: A review." Medical Image Analysis (2024): 103131.
