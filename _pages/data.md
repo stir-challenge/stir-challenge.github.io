@@ -8,7 +8,7 @@ author_profile: true
 The STIR dataset (STIROrig) includes many sequences (over 4 hours) of tissue deformation, and the [publicly](https://arxiv.org/abs/2309.16782) released version can be used for both training and validation. The 2024 challenge (STIRC2024) [data](https://zenodo.org/records/14803158) provides a more filtered and orthogonal dataset that can be used for validation of algorithms. An similarly distributed non-intersecting dataset (STIRC2025) will be used for the 2025 challenge evaluation.
 
 ## STIRC2025 Test and Validation Data
-The test dataset for STIRC2025 will be the data we use for this challenge. It has no intersection with any of the other released datasets. STIRC2025 contains around 24 sequences, with varying video lengths. A validation dataset of 12 videos will also be available.
+The test dataset for STIRC2025 will be the data we use for this challenge. It has no intersection with any of the other released datasets. STIRC2025 contains around 32 sequences. Use prior challenge data (STIRC2024) to validate your methods.
 
 ## Use of External Data
 Publicly available data are usable for training. Recommended datasets with deformation or tracking labels are mentioned in the prior years challenge [paper](https://arxiv.org/abs/2503.24306)<sup>1</sup> and this [review](https://www.sciencedirect.com/science/article/pii/S1361841524000562)<sup>2</sup>.
