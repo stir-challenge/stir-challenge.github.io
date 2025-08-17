@@ -22,9 +22,7 @@ We will be using $$ \delta^x_{avg} $$ (from [TAP-VID](https://tapvid.github.io/)
 **Accuracy metrics code is available at:** [STIRMetrics](https://github.com/athaddius/STIRMetrics)
 
 ### Efficiency
-*TBA*
-
-![Holoscan platform](/images/holoscan.png)
+Refer to synapse: https://www.synapse.org/Synapse:syn65877821/wiki/631534
 
 ## Algorithm Specification
 
@@ -47,4 +45,4 @@ Algorithms which ingress full video sequences do not have provided reference imp
 
 
 ## Prizes
-*TBA*
+Refer to synapse: https://www.synapse.org/Synapse:syn65877821/wiki/631534
