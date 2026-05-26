@@ -3,12 +3,12 @@
 # This config file is meant for settings that affect your entire site, values
 # which you are expected to set up once and rarely need to edit after that.
 # For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve -l -H localhost`. If you change this file, please restart the 
+# `jekyll serve -l -H localhost`. If you change this file, please restart the
 # server process.
 
 # Basic Site Settings
 locale: "en-US"
-title: "STIR Challenge 2025"
+title: "STIR Challenge 2026"
 title_separator: "-"
 name: &name "Your Name"
 description: &description "personal description"
@@ -23,9 +23,9 @@ author:
   # Biographic information
   avatar: "logo-v2.png"
   name: "STIR Challenge"
-  pronouns: # example: "she/her"  
-  bio: "MICCAI 2025"
-  location: "Daejeon / Republic of Korea"
+  pronouns: # example: "she/her"
+  bio: "MICCAI 2026"
+  location: "Strasbourg, France"
   employer:
   uri: # URL
   email: "challenge.stir@gmail.com"
@@ -39,8 +39,8 @@ author:
   codepen: # Username
   dribbble: # Username
   github:
-  kaggle: # Username  
-  stackoverflow: # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
+  kaggle: # Username
+  stackoverflow: # User number or user number and name (i.e., use "1" or "1/jeff-atwood")
 
   # Social media
   bluesky: # Username # Replace this with you Bluesky username
@@ -117,7 +117,7 @@ yandex_site_verification:
 
 # Social Sharing
 twitter:
-  username: &twitter 
+  username: &twitter
 facebook:
   username:
   app_id:

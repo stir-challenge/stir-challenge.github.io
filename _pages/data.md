@@ -5,10 +5,16 @@ permalink: /data/
 author_profile: true
 ---
 ![](/images/STIR_summary.png)
-The STIR dataset (STIROrig) includes many sequences (over 4 hours) of tissue deformation, and the [publicly](https://arxiv.org/abs/2309.16782) released version can be used for both training and validation. The 2024 challenge (STIRC2024) [data](https://zenodo.org/records/14803158) provides a more filtered and orthogonal dataset that can be used for validation of algorithms. An similarly distributed non-intersecting dataset (STIRC2025) will be used for the 2025 challenge evaluation.
+The STIR dataset (STIROrig) includes many sequences (over 4 hours) of tissue deformation, and the [publicly](https://arxiv.org/abs/2309.16782) released version can be used for both training and validation.
+Originally, the dataset is annotated with infrared visible tattoos allowing to locate landmarks on the tissue surface on start and end frames of sequences.
 
-## STIRC2025 Test and Validation Data
-The test dataset for STIRC2025 will be the data we use for this challenge. It has no intersection with any of the other released datasets. STIRC2025 contains around 32 sequences. Use prior challenge data (STIRC2024) to validate your methods.
+## Previous Years' Data and Annotations
+The challenges in [2024](https://zenodo.org/records/14803158) and 2025 contained a filtered and orthogonal dataset using the same structure of annotations.
+
+## New for 2026: Temporally Denser Evaluation
+This year, we introduce manually annotated, temporally denser tracking and visibility labels. These annotations enable a more accurate evaluation of tracking performance and offer deeper insights into the challenges posed by deformable objects.
+
+The benchmark comprises around 10 sequences ranging from 5 to 30 seconds in duration, captured at 25 Hz. Each tracking point is initialized in the very first frame, with position and visibility labels provided at a frequency of 1 Hz.
 
 ## Use of External Data
 Publicly available data are usable for training. Recommended datasets with deformation or tracking labels are mentioned in the prior years challenge [paper](https://arxiv.org/abs/2503.24306)<sup>1</sup> and this [review](https://www.sciencedirect.com/science/article/pii/S1361841524000562)<sup>2</sup>.

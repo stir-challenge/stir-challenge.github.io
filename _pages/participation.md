@@ -4,24 +4,34 @@ title: "Participation"
 permalink: /participation/
 author_profile: true
 ---
-## Getting Started
-Visit our [Synapse page](https://www.synapse.org/Synapse:syn65877821/wiki/631618) to participate and obtain further details on submission.
 
-### Export Docker Image
-We recommend starting with the docker container at STIRMetrics
-After you have finished setting up your model within docker, get your container ID:
-```bash
-docker ps
-```
-After which, run:
-```bash
-docker commit <container_id> <team_name>
-```
-This will commit your docker container to an image file which the challenge organizers can then use. Upload this docker image to a file-sharing website of your choice. Modify the commented 'FOR SUBMISSION' piece of rundocker.sh to include a run command, and submit your version of this script alongside your container image. Organizers will use this to run your docker image as a standalone method. Your method paired with the rundocker.sh must run all necessary commands and then exit; the organizers should not need to enter your container. Please make sure to submit your method early for validation so that we can ensure it runs.
+## Development and Submission
+Here is a step-by-step guide on how to participate in the challenge:
+1. Clone the [stir-challenge-2026-inference](https://github.com/mertkaraoglu/stir-challenge-2026-inference) repository.
+2. Follow our guideline outlined in the repo's readme to integrate and package your model inside a Docker image.
+3. Test your model qualitatively using our provided validation sequences.
+4. Upload your Docker image to any file-sharing service (e.g., Google Drive, Synapse, etc.) and share the link with us in the submission email following the instructions below.
+
+### Important Rules for Submission
+Do not modify any existing dataset or inference pipeline files in the inference repository.
+Your model must be contained in a single file, following the format of the existing sample models.
+You are allowed and encouraged to modify the `pyproject.toml` file to add dependencies.
+Any changes to the core files of the framework may result in rejection of your submission.
+
+### Evaluation Framework
+We will use [stir-challenge-2026-metrics](https://github.com/mertkaraoglu/stir-challenge-2026-metrics) to access your model's outputs and benchmark its performance.
+
+### Using Previous Year's Data and Framework for Validation
+You are more than welcome to use the previous years' data and framework ([STIRC 2024](/stirc-2024/), [STIRC 2025](/stirc-2025/)) for validation purposes.
+Please note that you will need to follow the corresponding guidelines and adapt your model to the old framework as well.
+
+***vRAM Constraints:** The evaluations will be performed on a single, independent, workstation equipped with an RTX6000 Ada GPU (48GB vRAM). The longest of our sequences is 30 seconds. Please consider this when developing your model.*
 
 ### Email Template
+**Visit our [Synapse page](https://www.synapse.org/Synapse:syn65877821/wiki/631618) to participate and obtain further details on submission.**
 Email `challenge.stir@gmail.com` with a link to download your container. Attach the signed form EndoVis Participant Form if you have not already done so. Teams are limited to one submission per component. A video and report will be due. (see How To Participate for instructions)
 
+```markdown
 **Subject line**
 
 STIR Submission <teamname> <submissiontype>
@@ -33,27 +43,7 @@ Team Members:
 Team Contact Email:
 Link to Docker image and rundocker.sh for submission: (for each submission)
 Type of Submission: (Any of: 2D, 3D, 2D+latency/3D+latency)
-
-### Accuracy Component
-
-#### 2D
-Use the code at STIRMetrics to design your model, such that your model outputs point locations to the output directory. The challenge organizers will enter your docker container and run:
-```bash
-python datatest/flow2d.py --num_data -1 --showvis 0 --jsonsuffix test --modeltype <YOURMODEL> --ontestingset 1
 ```
-Ensure that this command works (you can set num_data to something small (eg. 3) to verify this runs). This will output the locations at the end of each video clip to the output directory `/workspace/output`.
-**Note:** When submitting your method along with rundocker.sh, make sure your code runs the above command.
-
-#### 3D
-Use the code at STIRMetrics to design your model, such that your model outputs point locations in the full-scale image and 3D to the output directory. The challenge organizers will enter your docker container and run:
-```bash
-python datatest/flow3d.py --num_data -1 --showvis 0 --jsonsuffix test --modeltype <YOURMODEL> --ontestingset 1
-```
-Ensure that this command works (you can set num_data something small (eg. 3) to verify this runs). This will output the locations at the end of each video clip to the output directory `/workspace/output`.
-**Note:** When submitting your method along with rundocker.sh, make sure your code runs the above command.
-
-#### Latency
-First, ensure your model works for the accuracy component that your team is participating in (2D or 3D, as detailed above). Then, make sure that your model latency is logged (ie. keep it wrapped in `LogLatency` in flow2d.py or flow3d.py).
 
 #### Questions
 Please direct your questions to the synapse forum if they can be relevant to other participants, or challenge.stir@gmail.com if not.
