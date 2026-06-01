@@ -12,7 +12,7 @@ Originally, the dataset is annotated with infrared visible tattoos allowing to l
 The challenges in [2024](https://zenodo.org/records/14803158) and 2025 contained a filtered and orthogonal dataset using the same structure of annotations.
 
 ## New for 2026: Temporally Denser Evaluation
-This year, we introduce manually annotated, temporally denser tracking and visibility labels. These annotations enable a more accurate evaluation of tracking performance and offer deeper insights into the challenges posed by deformable objects.
+This year, we introduce manually annotated, temporally denser tracking and visibility labels. These annotations enable a more accurate evaluation of tracking performance and offer deeper insights into the challenges posed by the coupled scene and camera motion.
 
 The benchmark comprises around 10 sequences ranging from 5 to 30 seconds in duration, captured at 25 Hz. Each tracking point is initialized in the very first frame, with position and visibility labels provided at a frequency of 1 Hz.
 

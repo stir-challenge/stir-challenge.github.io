@@ -21,9 +21,10 @@ Any changes to the core files of the framework may result in rejection of your s
 ### Evaluation Framework
 We will use [stir-challenge-2026-metrics](https://github.com/mertkaraoglu/stir-challenge-2026-metrics) to access your model's outputs and benchmark its performance.
 
-### Using Previous Year's Data and Framework for Validation
-You are more than welcome to use the previous years' data and framework ([STIRC 2024](/stirc-2024/), [STIRC 2025](/stirc-2025/)) for validation purposes.
-Please note that you will need to follow the corresponding guidelines and adapt your model to the old framework as well.
+### Validation
+For validation, there is two alternatives:
+1. Qualitative evaluation on the [validation split of the STIR 2026 dataset](https://downloads.imfusion.com/stir-challenge/2026/val.zip). We highly recommend using this for sanity checking the docker container, probing its memory usage (we ensure that there is a 30 seconds video in the validation split which is the longest of our sequences in the test split) and visually analyzing the results.
+2. Quantitative evalation using the previous years' data and framework ([STIRC 2024](/stirc-2024/), [STIRC 2025](/stirc-2025/)). Please note that you will need to follow the corresponding guidelines and adapt your model to the old framework as well.
 
 ***vRAM Constraints:** The evaluations will be performed on a single, independent, workstation equipped with an RTX6000 Ada GPU (48GB vRAM). The longest of our sequences is 30 seconds. Please consider this when developing your model.*
 
