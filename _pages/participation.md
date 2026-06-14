@@ -6,6 +6,7 @@ author_profile: true
 ---
 
 ## Development and Submission
+**Visit our [Synapse page](https://www.synapse.org/Synapse:syn65877821/wiki/631618) to register to participate and obtain further details on submission.**
 Here is a step-by-step guide on how to participate in the challenge:
 1. Clone the [stir-challenge-2026-inference](https://github.com/mertkaraoglu/stir-challenge-2026-inference) repository.
 2. Follow our guideline outlined in the repo's readme to integrate and package your model inside a Docker image.
@@ -29,7 +30,6 @@ For validation, there is two alternatives:
 ***vRAM Constraints:** The evaluations will be performed on a single, independent, workstation equipped with an RTX6000 Ada GPU (48GB vRAM). The longest of our sequences is 30 seconds. Please consider this when developing your model.*
 
 ### Email Template
-**Visit our [Synapse page](https://www.synapse.org/Synapse:syn65877821/wiki/631618) to participate and obtain further details on submission.**
 Email `challenge.stir@gmail.com` with a link to download your container. Attach the signed form EndoVis Participant Form if you have not already done so. Teams are limited to one submission per component. A video and report will be due. (see How To Participate for instructions)
 
 ```markdown
