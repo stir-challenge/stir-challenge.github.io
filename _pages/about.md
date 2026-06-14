@@ -63,7 +63,6 @@ Here are some examples of a baseline method (MFTs) on the STIR dataset.
 | Mert Karaoglu     | ImFusion & TUM |
 | Alexander Ladikos | ImFusion       |
 | Omid Mohareri     | Intuitive      |
-| Simon DiMaio      | Intuitive      |
 
 ## Sponsors
 
@@ -71,7 +70,7 @@ Here are some examples of a baseline method (MFTs) on the STIR dataset.
 
 ## Contact
 
-Questions about our challenge should be posted on the synapse forum for this challenge. To formally register for the challenge, please email your signed registration form to [challenge.stir@gmail.com](challenge.stir@gmail.com).
+Questions about our challenge should be posted on the [synapse forum](https://www.synapse.org/Synapse:syn74381557/wiki/640004) for this challenge, additional details may be found there. To formally register for the challenge, please email your signed registration form to [challenge.stir@gmail.com](challenge.stir@gmail.com).
 
 ## References
 
