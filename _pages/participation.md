@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 ## Development and Submission
-**Visit our [Synapse page](https://www.synapse.org/Synapse:syn65877821/wiki/631618) to register to participate and obtain further details on submission.**
+**Visit our [Synapse page](https://www.synapse.org/Synapse:syn74381557/wiki/639995) to register to participate and obtain further details on submission.**
 Here is a step-by-step guide on how to participate in the challenge:
 1. Clone the [stir-challenge-2026-inference](https://github.com/mertkaraoglu/stir-challenge-2026-inference) repository.
 2. Follow our guideline outlined in the repo's readme to integrate and package your model inside a Docker image.
