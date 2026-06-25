@@ -81,4 +81,4 @@ Targeting online (streaming) use cases, the model predictions are also cached im
 
 ## Prizes
 
-Refer to synapse: [https://www.synapse.org/Synapse:syn65877821/wiki/631534](https://www.synapse.org/Synapse:syn74381557/wiki/)
+Refer to [synapse](https://www.synapse.org/Synapse:syn74381557/wiki/)
